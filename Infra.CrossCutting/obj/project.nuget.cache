@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "98hh+/EtG94Ka293pyVuKO05d/A7YiRn6aiQsrEGARTVrBZ5UPr9glC30OggBpw8TRYMkx2/KCYYveaHbpBC/Q==",
+  "dgSpecHash": "u+z3hzsAXpKqmHHB6TwerkB3ZDZwj8m8aydsVB25Kwbl69nGhgrhXULsuwzNLyaraZSzVOzr6y/cOGmgmhoBpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tarde.cetafaju\\source\\repos\\ProjetoFinal\\Infra.CrossCutting\\Infra.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\tarde.cetafaju\\source\\repos\\ProjetoFinalApi\\Infra.CrossCutting\\Infra.CrossCutting.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

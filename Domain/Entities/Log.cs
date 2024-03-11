@@ -8,7 +8,7 @@ namespace Domain.Entities
 {
     public class Log : BaseEntity
     {
-        public int CodeRobot { get; set; }
+        public string CodeRobot { get; set; }
         public string UserRobot { get; set; }
         public DateTime DateLog { get; set; }
         public string Stage { get; set; }
