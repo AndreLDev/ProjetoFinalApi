@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "UNN4sOM4Oru1MnTfT6V+hze6LG5M5rhQN7DMWVVDu6Qct9EJkuUo7kkQ5u+xXiaC7d6Pv0A0JIGpXDIH/KvdVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tarde.cetafaju\\source\\repos\\ProjetoFinal\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
