@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LPxzQ63zNdGVEbAduMI+V4zZCRvP68lWeQR4FqzHuxw60aUjRRvlz0zsfj0zVFARBwHkb49bcZNWXJ2IlBEcUw==",
+  "dgSpecHash": "bAWDBrhE3MOOBcOKAp/Fo2BrBq73FhYRODJIaz4Yw4Ni9MBX9QnLFIDyYXnJgJSz4AZwTKHKTTBKgQDdns7hUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tarde.cetafaju\\source\\repos\\ProjetoFinal\\Infra.Data\\Infra.Data.csproj",
+  "projectFilePath": "C:\\Users\\tarde.cetafaju\\source\\repos\\ProjetoFinalApi\\Infra.Data\\Infra.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
