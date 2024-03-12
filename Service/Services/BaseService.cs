@@ -1,41 +1,69 @@
-﻿using Domain.Entities;
+﻿using AutoMapper;
+using Domain.Entities;
 using Domain.Interfaces;
 using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Service.Services
 {
     public class BaseService<TEntity> : IBaseService<TEntity> where TEntity : BaseEntity
     {
         private readonly IBaseRepository<TEntity> _baseRepository;
+        private readonly IMapper _mapper;
 
-        public BaseService(IBaseRepository<TEntity> baseRepository)
+        public BaseService(IBaseRepository<TEntity> baseRepository, IMapper mapper)
         {
             _baseRepository = baseRepository;
+            _mapper = mapper;
         }
 
-        public TEntity Add<TValidator>(TEntity obj) where TValidator : AbstractValidator<TEntity>
+        public TResponseModel Add<TRequestModel, TResponseModel, TValidator>(TRequestModel requestModel)
+            where TValidator : AbstractValidator<TEntity>
+            where TRequestModel : class
+            where TResponseModel : class
         {
-            Validate(obj, Activator.CreateInstance<TValidator>());
-            _baseRepository.Insert(obj);
-            return obj;
+            TEntity entity = _mapper.Map<TEntity>(requestModel);
+
+            Validate(entity, Activator.CreateInstance<TValidator>());
+            _baseRepository.Insert(entity);
+
+            TResponseModel responseModel = _mapper.Map<TResponseModel>(entity);
+
+            return responseModel;
         }
 
         public void Delete(int id) => _baseRepository.Delete(id);
 
-        public IList<TEntity> Get() => _baseRepository.Select();
-
-        public TEntity GetById(int id) => _baseRepository.Select(id);
-
-        public TEntity Update<TValidator>(TEntity obj) where TValidator : AbstractValidator<TEntity>
+        public IEnumerable<TResponseModel> Get<TResponseModel>() where TResponseModel : class
         {
-            Validate(obj, Activator.CreateInstance<TValidator>());
-            _baseRepository.Update(obj);
-            return obj;
+            var entities = _baseRepository.Select();
+
+            var responseModels = entities.Select(s => _mapper.Map<TResponseModel>(s));
+
+            return responseModels;
+        }
+
+        public TResponseModel GetById<TResponseModel>(int id) where TResponseModel : class
+        {
+            var entity = _baseRepository.Select(id);
+
+            var responseModels = _mapper.Map<TResponseModel>(entity);
+
+            return responseModels;
+        }
+
+        public TResponseModel Update<TRequestModel, TResponseModel, TValidator>(TRequestModel inputModel)
+            where TValidator : AbstractValidator<TEntity>
+            where TRequestModel : class
+            where TResponseModel : class
+        {
+            TEntity entity = _mapper.Map<TEntity>(inputModel);
+
+            Validate(entity, Activator.CreateInstance<TValidator>());
+            _baseRepository.Update(entity);
+
+            TResponseModel responseModels = _mapper.Map<TResponseModel>(entity);
+
+            return responseModels;
         }
 
         private void Validate(TEntity obj, AbstractValidator<TEntity> validator)

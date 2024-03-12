@@ -14,5 +14,7 @@ namespace Domain.Entities
         public string Stage { get; set; }
         public string InformationLog { get; set; }
         public int IdProduto { get; set; }
+
+        public Produto Produto { get; set; }
     }
 }
