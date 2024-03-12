@@ -14,7 +14,7 @@ namespace Infra.Data.Mapping
 
         public void Configure(EntityTypeBuilder<Log> builder)
         {
-            builder.ToTable("User");
+            builder.ToTable("Log");
 
             builder.HasKey(prop => prop.Id);
 
@@ -55,6 +55,11 @@ namespace Infra.Data.Mapping
                 .IsRequired()
                 .HasColumnName("IdProduto")
                 .HasColumnType("int");
+
+            builder.HasOne(prop => prop.Produto)
+                .WithMany()
+                .HasForeignKey(prop => prop.IdProduto)
+                .HasConstraintName("FK_Log_Produto");
         }
     }
 }

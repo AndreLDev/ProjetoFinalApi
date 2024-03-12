@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "5Fw6YCD9WN1+RBOeQM59tsJyzvpGmczWqbpxSyS3moF456pQvtV9aUMez1Lr2jKghWIGvB17ld7dGJlrQQ+CEQ==",
+  "dgSpecHash": "XFdMxzJRKPmb0TzxpxnXK6zo7902ORJp6qU5Dm0HEVZRicU/4ypBWzt3PDPpmC8DipwHKwRSy7oepkaxHo6gUA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tarde.cetafaju\\source\\repos\\ProjetoFinalApi\\Service\\Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
-    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
