@@ -20,6 +20,8 @@ using Application.Models.Response.Produto;
 using Application.Models.Request.Log;
 using Application.Models.Response.Log;
 using Application.Models.Request.Produto;
+using Application.Models.Response.BenchMarking;
+using Infra.CrossCutting.Scraper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,6 +41,9 @@ builder.Services.AddScoped<ILogService, LogService>();
 builder.Services.AddScoped<IBaseRepository<Produto>, BaseRepository<Produto>>();
 builder.Services.AddScoped<IBaseService<Produto>, BaseService<Produto>>();
 
+
+builder.Services.AddScoped<IUtilService, UtilService>();
+
 builder.Services.AddControllers();
 builder.Services.AddSingleton(new MapperConfiguration(config =>
 {
@@ -46,6 +51,8 @@ builder.Services.AddSingleton(new MapperConfiguration(config =>
     config.CreateMap<UpdateUserRequest, User>();
     config.CreateMap<User, UserResponse>();
 
+
+    config.CreateMap<RequestLog, Log>();
     config.CreateMap<CreateLogRequest, Log>();
     config.CreateMap<UpdateLogRequest, Log>();
     config.CreateMap<Log, LogResponse>();
@@ -53,22 +60,19 @@ builder.Services.AddSingleton(new MapperConfiguration(config =>
     config.CreateMap<CreateProdutoRequest, Produto>();
     config.CreateMap<UpdateProdutoRequest, Produto>();
     config.CreateMap<Produto, ProdutoResponse>();
+
+    config.CreateMap<ProdutoScraper, ProdutoScraperResponse>();
 }).CreateMapper());
 
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("corsapp", builder =>
-    {
-        builder.WithOrigins("http://localhost:5173")
-               .AllowAnyMethod()
-               .AllowAnyHeader()
-               .AllowCredentials();
-    });
-});
-
 var app = builder.Build();
-app.UseCors("corsapp");
+
+app.UseCors(options =>
+{
+    options.AllowAnyMethod();
+    options.AllowAnyHeader();
+    options.AllowAnyOrigin();
+});
 
 if (app.Environment.IsDevelopment())
 {
