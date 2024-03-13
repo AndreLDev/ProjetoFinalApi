@@ -25,3 +25,10 @@ D:\projetos\ProjetoFinalApi\Infra.CrossCutting\obj\Debug\net6.0\Infra.CrossCutti
 D:\projetos\ProjetoFinalApi\Infra.CrossCutting\bin\Debug\net6.0\Domain.dll
 D:\projetos\ProjetoFinalApi\Infra.CrossCutting\bin\Debug\net6.0\Domain.pdb
 D:\projetos\ProjetoFinalApi\Infra.CrossCutting\obj\Debug\net6.0\Infra.Cr.124407B5.Up2Date
+C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Infra.CrossCutting\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Infra.CrossCutting\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Infra.CrossCutting\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Infra.CrossCutting\bin\Debug\net6.0\Domain.dll
+C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Infra.CrossCutting\bin\Debug\net6.0\Domain.pdb
+C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Infra.CrossCutting\obj\Debug\net6.0\Infra.CrossCutting.csproj.AssemblyReference.cache
+C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Infra.CrossCutting\obj\Debug\net6.0\Infra.CrossCutting.csproj.CopyComplete

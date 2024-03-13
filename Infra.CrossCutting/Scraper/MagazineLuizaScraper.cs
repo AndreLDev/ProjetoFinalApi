@@ -1,6 +1,9 @@
 ﻿using AutoMapper;
 using Domain.Entities;
+using Domain.Interfaces;
 using HtmlAgilityPack;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,49 +15,53 @@ namespace Infra.CrossCutting.Scraper
     public class MagazineLuizaScraper : ScraperBase
     {
         private readonly IMapper _mapper;
+        private readonly ILogRepository _logRepository;
+
+        public MagazineLuizaScraper(ILogRepository logRepository, IMapper mapper) : base(logRepository, mapper)
+        {
+            _mapper = mapper;
+            _logRepository = logRepository;
+        }
+
         public TResponseModel ObterPreco<TResponseModel>(Produto produto, ProdutoScraper scraper) where TResponseModel : class
         {
-            string url = $"https://www.magazineluiza.com.br/busca/{produto.Desciption}";
-
             try
             {
-                HtmlWeb web = new HtmlWeb();
-                HtmlDocument document = web.Load(url);
-
-                HtmlNode firstProductPriceNode = document.DocumentNode.SelectSingleNode("//span[@class='andes-money-amount__fraction']");
-                HtmlNode firstProductTitleNode = document.DocumentNode.SelectSingleNode("//h2[@class='ui-search-item__title']");
-                HtmlNode firstProductUrlNode = document.DocumentNode.SelectSingleNode("//a[contains(@class, 'ui-search-link__title-card')]");
-
-                if (firstProductPriceNode != null)
+                using (IWebDriver driver = new ChromeDriver())
                 {
-                    string firstProductPrice = firstProductPriceNode.InnerText.Trim();
-                    string firstProductTitle = firstProductTitleNode.InnerText.Trim();
-                    string firstProductUrl = firstProductUrlNode.GetAttributeValue("href", "");
+                    driver.Navigate().GoToUrl($"https://www.magazineluiza.com.br/busca/{produto.Desciption}");
 
-                    RegistrarLog("WebScraping - Mercado Livre", "Sucesso", produto.Id);
+                    System.Threading.Thread.Sleep(5000);
 
-                    ProdutoScraper produtoScraper = new ProdutoScraper
+                    IWebElement priceElement = driver.FindElement(By.CssSelector("[data-testid='price-value']"));
+                    IWebElement titleElement = driver.FindElement(By.CssSelector("[data-testid='product-title']"));
+                    IWebElement urlElement = driver.FindElement(By.CssSelector("[data-testid='product-card-container']"));
+
+                    if (priceElement != null)
                     {
-                        MercadoTitle = firstProductTitle,
-                        MercadoPrice = firstProductPrice,
-                        MercadoUrl = firstProductUrl
-                    };
 
-                    TResponseModel responseModels = _mapper.Map<TResponseModel>(produtoScraper);
+                        scraper.MagazineTitle = titleElement.Text;
+                        scraper.MagazinePrice = priceElement.Text;
+                        scraper.MagazineUrl = urlElement.GetAttribute("href");
 
-                    return responseModels;
-                }
-                else
-                {
-                    Console.WriteLine("Preço não encontrado.");
-                    RegistrarLog("WebScraping - Mercado Livre", "Preço não encontrado", produto.Id);
-                    return null;
+                        RegistrarLog("WebScraping - Magazine Luiza", "Sucesso", produto.Id);
+
+                        TResponseModel responseModels = _mapper.Map<TResponseModel>(scraper);
+
+                        return responseModels;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Preço não encontrado.");
+                        RegistrarLog("WebScraping - Magazine Luiza", "Preço não encontrado", produto.Id);
+                        return null;
+                    }
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Erro ao acessar a página: {ex.Message}");
-                RegistrarLog("Web Scraping - Mercado Livre", $"Erro: {ex.Message}", produto.Id);
+                RegistrarLog("Web Scraping - Magazine Luiza", $"Erro: {ex.Message}", produto.Id);
                 return null;
             }
         }

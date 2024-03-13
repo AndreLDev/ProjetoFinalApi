@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using AutoMapper;
+using Domain.Entities;
 using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,17 @@ namespace Infra.CrossCutting.Scraper
     public class ScraperBase
     {
         private readonly ILogRepository _logRepository;
+        private readonly IMapper _mapper;
+
+        public ScraperBase(ILogRepository logRepository, IMapper mapper)
+        {
+            _logRepository = logRepository;
+            _mapper = mapper;
+        }
+
         protected void RegistrarLog(string processo, string informacaoLog, int idProduto)
         {
-            var log = new Log
+            var log = new RequestLog
             {
                 CodeRobot = "3416",
                 UserRobot = "andreLuiz",
@@ -22,7 +31,8 @@ namespace Infra.CrossCutting.Scraper
                 InformationLog = informacaoLog,
                 IdProduto = idProduto
             };
-            _logRepository.Insert(log);
+            Log entity = _mapper.Map<Log>(log);
+            _logRepository.Insert(entity);
         }
     }
 }

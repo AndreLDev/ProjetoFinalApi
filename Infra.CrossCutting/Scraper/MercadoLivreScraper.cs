@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Domain.Entities;
+using Domain.Interfaces;
 using HtmlAgilityPack;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,15 @@ namespace Infra.CrossCutting.Scraper
     public class MercadoLivreScraper : ScraperBase
     {
         private readonly IMapper _mapper;
+        private readonly ILogRepository _logRepository;
+
+        public MercadoLivreScraper(ILogRepository logRepository, IMapper mapper) : base(logRepository, mapper)
+        {
+            _logRepository = logRepository;
+            _mapper = mapper;
+
+        }
+
         public TResponseModel ObterPreco<TResponseModel>(Produto produto) where TResponseModel : class
         {
             string url = $"https://lista.mercadolivre.com.br/{produto.Desciption}";

@@ -13,6 +13,6 @@ namespace Domain.Entities
         public int Stock { get; set;}
         public int MinStock { get; set; }
 
-        public ICollection<Log> Logs { get; set; }
+        public ICollection<Log>? Logs { get; set; }
     }
 }

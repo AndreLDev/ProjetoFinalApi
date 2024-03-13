@@ -15,6 +15,6 @@ namespace Domain.Entities
         public string InformationLog { get; set; }
         public int IdProduto { get; set; }
 
-        public Produto Produto { get; set; }
+        public Produto? Produto { get; set; }
     }
 }
