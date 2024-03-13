@@ -10,3 +10,16 @@ C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Domain\obj\Debug\net6.0\Dom
 C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Domain\obj\Debug\net6.0\refint\Domain.dll
 C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\projetos\ProjetoFinalApi\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\projetos\ProjetoFinalApi\Domain\bin\Debug\net6.0\Domain.dll
+D:\projetos\ProjetoFinalApi\Domain\bin\Debug\net6.0\Domain.pdb
+D:\projetos\ProjetoFinalApi\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\projetos\ProjetoFinalApi\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\projetos\ProjetoFinalApi\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\projetos\ProjetoFinalApi\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\projetos\ProjetoFinalApi\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\projetos\ProjetoFinalApi\Domain\obj\Debug\net6.0\Domain.sourcelink.json
+D:\projetos\ProjetoFinalApi\Domain\obj\Debug\net6.0\Domain.dll
+D:\projetos\ProjetoFinalApi\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\projetos\ProjetoFinalApi\Domain\obj\Debug\net6.0\Domain.pdb
+D:\projetos\ProjetoFinalApi\Domain\obj\Debug\net6.0\ref\Domain.dll

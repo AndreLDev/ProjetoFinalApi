@@ -28,12 +28,12 @@ namespace Application.Controllers
         }
 
         [HttpPut]
-        public IActionResult Update([FromBody] UpdateUserResquest user)
+        public IActionResult Update([FromBody] UpdateUserRequest user)
         {
             if (user == null)
                 return NotFound();
 
-            return Execute(() => _baseUserService.Update<UpdateUserResquest, UserResponse, UserValidator>(user));
+            return Execute(() => _baseUserService.Update<UpdateUserRequest, UserResponse, UserValidator>(user));
         }
 
         [HttpDelete("{id}")]

@@ -1,6 +1,6 @@
 ﻿namespace Application.Models.Request.User
 {
-    public class UpdateUserResquest
+    public class UpdateUserRequest
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "u+z3hzsAXpKqmHHB6TwerkB3ZDZwj8m8aydsVB25Kwbl69nGhgrhXULsuwzNLyaraZSzVOzr6y/cOGmgmhoBpg==",
+  "dgSpecHash": "JNjZ+GL2qSHsJkFnOp+sZ9HqyjbZj5rO3crmDjAX5WAd1O0CNSw3rH5Q1WxknvMsz+90SUQjSotF9OKx5Qxs1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tarde.cetafaju\\source\\repos\\ProjetoFinalApi\\Infra.CrossCutting\\Infra.CrossCutting.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\Infra.CrossCutting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\htmlagilitypack\\1.11.59\\htmlagilitypack.1.11.59.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

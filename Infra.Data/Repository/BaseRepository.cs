@@ -18,13 +18,13 @@ namespace Infra.Data.Repository
             _SqlServCon = sqlServerContext;
         }
 
-        public void Insert(TEntity obj)
+        public virtual void Insert(TEntity obj)
         {
             _SqlServCon.Set<TEntity>().Add(obj);
             _SqlServCon.SaveChanges();
         }
 
-        public void Update(TEntity obj)
+        public virtual void Update(TEntity obj)
         {
             _SqlServCon.Entry(obj).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
             _SqlServCon.SaveChanges();
@@ -36,10 +36,10 @@ namespace Infra.Data.Repository
             _SqlServCon.SaveChanges();
         }
 
-        public IList<TEntity> Select() =>
+        public virtual IList<TEntity> Select() =>
             _SqlServCon.Set<TEntity>().ToList();
 
-        public TEntity Select(int id) =>
+        public virtual TEntity Select(int id) =>
             _SqlServCon.Set<TEntity>().Find(id);
 
     }

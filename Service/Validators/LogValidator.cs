@@ -10,7 +10,7 @@ namespace Service.Validators
             RuleFor(c => c.CodeRobot)
                 .NotEmpty().WithMessage("Please enter the CodeRobot.")
                 .NotNull().WithMessage("Please enter the CodeRobot.");
-
+        
             RuleFor(c => c.UserRobot)
                 .NotEmpty().WithMessage("Please enter the UserRobot.")
                 .NotNull().WithMessage("Please enter the UserRobot.");

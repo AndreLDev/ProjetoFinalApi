@@ -16,6 +16,10 @@ using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using Application.Models.Request.User;
 using Application.Models.Response.User;
+using Application.Models.Response.Produto;
+using Application.Models.Request.Log;
+using Application.Models.Response.Log;
+using Application.Models.Request.Produto;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,13 +33,26 @@ builder.Services.AddDbContext<SqlServerContext>(options =>
 builder.Services.AddScoped<IBaseRepository<User>, BaseRepository<User>>();
 builder.Services.AddScoped<IBaseService<User>, BaseService<User>>();
 
+builder.Services.AddScoped<ILogRepository, LogRepository>();
+builder.Services.AddScoped<ILogService, LogService>();
+
+builder.Services.AddScoped<IBaseRepository<Produto>, BaseRepository<Produto>>();
+builder.Services.AddScoped<IBaseService<Produto>, BaseService<Produto>>();
 
 builder.Services.AddControllers();
 builder.Services.AddSingleton(new MapperConfiguration(config =>
 {
     config.CreateMap<CreateUserRequest, User>();
-    config.CreateMap<UpdateUserResquest, User>();
+    config.CreateMap<UpdateUserRequest, User>();
     config.CreateMap<User, UserResponse>();
+
+    config.CreateMap<CreateLogRequest, Log>();
+    config.CreateMap<UpdateLogRequest, Log>();
+    config.CreateMap<Log, LogResponse>();
+
+    config.CreateMap<CreateProdutoRequest, Produto>();
+    config.CreateMap<UpdateProdutoRequest, Produto>();
+    config.CreateMap<Produto, ProdutoResponse>();
 }).CreateMapper());
 
 
