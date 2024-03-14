@@ -163,3 +163,11 @@ C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Application\bin\Debug\net6.
 C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Application\bin\Debug\net6.0\WebDriver.dll
 C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Application\bin\Debug\net6.0\Infra.CrossCutting.dll
 C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Application\bin\Debug\net6.0\Infra.CrossCutting.pdb
+D:\projetos\ProjetoFinalApi\Application\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+D:\projetos\ProjetoFinalApi\Application\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+D:\projetos\ProjetoFinalApi\Application\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+D:\projetos\ProjetoFinalApi\Application\bin\Debug\net6.0\HtmlAgilityPack.dll
+D:\projetos\ProjetoFinalApi\Application\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\projetos\ProjetoFinalApi\Application\bin\Debug\net6.0\WebDriver.dll
+D:\projetos\ProjetoFinalApi\Application\bin\Debug\net6.0\Infra.CrossCutting.dll
+D:\projetos\ProjetoFinalApi\Application\bin\Debug\net6.0\Infra.CrossCutting.pdb

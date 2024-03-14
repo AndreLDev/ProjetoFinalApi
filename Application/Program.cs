@@ -22,6 +22,7 @@ using Application.Models.Response.Log;
 using Application.Models.Request.Produto;
 using Application.Models.Response.BenchMarking;
 using Infra.CrossCutting.Scraper;
+using Application.Models.Request.Utils;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -56,6 +57,10 @@ builder.Services.AddSingleton(new MapperConfiguration(config =>
     config.CreateMap<CreateLogRequest, Log>();
     config.CreateMap<UpdateLogRequest, Log>();
     config.CreateMap<Log, LogResponse>();
+
+    config.CreateMap<EmailRequest, EmailSend>();
+    config.CreateMap<EmailSend, EmailRequest>();
+
 
     config.CreateMap<CreateProdutoRequest, Produto>();
     config.CreateMap<UpdateProdutoRequest, Produto>();

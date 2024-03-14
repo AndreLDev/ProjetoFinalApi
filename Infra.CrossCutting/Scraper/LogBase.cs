@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Infra.CrossCutting.Scraper
 {
-    public class ScraperBase
+    public class LogBase
     {
         private readonly ILogRepository _logRepository;
         private readonly IMapper _mapper;
 
-        public ScraperBase(ILogRepository logRepository, IMapper mapper)
+        public LogBase(ILogRepository logRepository, IMapper mapper)
         {
             _logRepository = logRepository;
             _mapper = mapper;

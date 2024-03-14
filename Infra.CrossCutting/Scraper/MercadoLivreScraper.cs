@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Infra.CrossCutting.Scraper
 {
-    public class MercadoLivreScraper : ScraperBase
+    public class MercadoLivreScraper : LogBase
     {
         private readonly IMapper _mapper;
         private readonly ILogRepository _logRepository;

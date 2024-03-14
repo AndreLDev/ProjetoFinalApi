@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Infra.CrossCutting.Scraper
 {
-    public class MagazineLuizaScraper : ScraperBase
+    public class MagazineLuizaScraper : LogBase
     {
         private readonly IMapper _mapper;
         private readonly ILogRepository _logRepository;

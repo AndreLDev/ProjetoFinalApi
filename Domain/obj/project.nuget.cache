@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Am3ugTbDMLzOq9NcNH6TVnuSGxXJX2SiVckd61tZJFojF6iRxEILHvmD4qxSpAk5NnbPaL8z4NluSzYss9yrRg==",
+  "dgSpecHash": "8qo8nJ52GXrgtUoebrJBgPm4tqyMIJs30AKPdCSHFTMAglkqE6N137F8jE931N81WGP9AYxte/oCke0z5zvaDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tarde.cetafaju\\source\\repos\\ProjetoFinalApi\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\projetos\\ProjetoFinalApi\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
-    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
-    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
-    "C:\\Users\\tarde.cetafaju\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
   ],
   "logs": []
 }

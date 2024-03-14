@@ -10,5 +10,9 @@ namespace Domain.Interfaces
     {
 
         TResponseModel GetBenchMarkinById<TResponseModel>(int id) where TResponseModel : class;
+
+        public Task<TResponseModel> SendEmail<TRequestModel, TResponseModel>(TRequestModel requestModel)
+            where TRequestModel : class
+            where TResponseModel : class;
     }
 }

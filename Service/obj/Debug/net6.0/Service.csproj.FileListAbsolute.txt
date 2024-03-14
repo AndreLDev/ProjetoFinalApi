@@ -34,3 +34,8 @@ C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Service\bin\Debug\net6.0\se
 C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Service\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
 C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Service\bin\Debug\net6.0\Infra.CrossCutting.dll
 C:\Users\tarde.cetafaju\source\repos\ProjetoFinalApi\Service\bin\Debug\net6.0\Infra.CrossCutting.pdb
+D:\projetos\ProjetoFinalApi\Service\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+D:\projetos\ProjetoFinalApi\Service\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+D:\projetos\ProjetoFinalApi\Service\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+D:\projetos\ProjetoFinalApi\Service\bin\Debug\net6.0\Infra.CrossCutting.dll
+D:\projetos\ProjetoFinalApi\Service\bin\Debug\net6.0\Infra.CrossCutting.pdb
