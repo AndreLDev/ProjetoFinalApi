@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace Infra.CrossCutting.Scraper
 {
@@ -27,28 +28,49 @@ namespace Infra.CrossCutting.Scraper
         {
             try
             {
-                using (IWebDriver driver = new ChromeDriver())
+                using (HttpClient client = new HttpClient())
                 {
-                    driver.Navigate().GoToUrl($"https://www.magazineluiza.com.br/busca/{produto.Desciption}");
+                    string url = $"https://www.magazineluiza.com.br/busca/{produto.Desciption}";
 
-                    System.Threading.Thread.Sleep(5000);
-
-                    IWebElement priceElement = driver.FindElement(By.CssSelector("[data-testid='price-value']"));
-                    IWebElement titleElement = driver.FindElement(By.CssSelector("[data-testid='product-title']"));
-                    IWebElement urlElement = driver.FindElement(By.CssSelector("[data-testid='product-card-container']"));
-
-                    if (priceElement != null)
+                    HttpResponseMessage response = client.GetAsync(url).Result;
+                    if (response.IsSuccessStatusCode)
                     {
+                        string content = response.Content.ReadAsStringAsync().Result;
 
-                        scraper.MagazineTitle = titleElement.Text;
-                        scraper.MagazinePrice = priceElement.Text;
-                        scraper.MagazineUrl = urlElement.GetAttribute("href");
+                        var docHtml = new HtmlDocument();
 
-                        RegistrarLog("WebScraping - Magazine Luiza", "Sucesso", produto.Id);
+                        docHtml.LoadHtml(content);
 
-                        TResponseModel responseModels = _mapper.Map<TResponseModel>(scraper);
+                        var produtos = docHtml.DocumentNode.SelectNodes("//a");
 
-                        return responseModels;
+                        foreach (var item in produtos)
+                        {
+                            if (item.OuterHtml.Contains("data-testid=\"product-card-container\""))
+                            {
+
+                                var card = item;
+                                var UrlValue = card.GetAttributeValue("href", "");
+                                var PriceValue = card.SelectSingleNode(".//p[@data-testid=\"price-value\"]");
+                                var TitleValue = card.SelectSingleNode(".//h2[@data-testid=\"product-title\"]");
+
+
+                                scraper.MagazinePrice = PriceValue.InnerText.Trim();
+                                scraper.MagazineTitle = TitleValue.InnerText.Trim();
+                                scraper.MagazineUrl = "https://www.magazineluiza.com.br"+UrlValue;
+
+                                RegistrarLog("WebScraping - Magazine Luiza", "Sucesso", produto.Id);
+
+                                TResponseModel responseModels = _mapper.Map<TResponseModel>(scraper);
+
+                                return responseModels;
+
+                            }
+                        }
+
+                        Console.WriteLine("Preço não encontrado.");
+                        RegistrarLog("WebScraping - Magazine Luiza", "Preço não encontrado", produto.Id);
+                        return null;
+
                     }
                     else
                     {

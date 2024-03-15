@@ -4,6 +4,7 @@ using Domain.Interfaces;
 using Infra.CrossCutting.Scraper;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,10 +25,10 @@ namespace Infra.CrossCutting.BenchMark
         public ProdutoScraper CompararValor(ProdutoScraper scraper , Produto produto)
         {
             var priceMercado = scraper.MercadoPrice.Replace(".", "");
-            var priceMagazine = scraper.MagazinePrice.Trim(new char[] { ' ', 'R', '$' }).Replace(".", "");
+            var priceMagazine = scraper.MagazinePrice.Trim(new char[] { ' ', 'R', '$' }).Replace(".", "").Trim();
 
-            var numPrecoMercado = double.Parse(priceMercado);
-            var numPrecoMagazine = double.Parse(priceMagazine);
+            var numPrecoMercado = double.Parse(priceMercado, CultureInfo.GetCultureInfo("pt-BR").NumberFormat);
+            var numPrecoMagazine = double.Parse(priceMagazine, CultureInfo.GetCultureInfo("pt-BR").NumberFormat);
 
             if (numPrecoMercado > numPrecoMagazine)
             {

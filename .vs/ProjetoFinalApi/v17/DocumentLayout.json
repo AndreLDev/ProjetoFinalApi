@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "D:\\projetos\\ProjetoFinalApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|d:\\projetos\\projetofinalapi\\infra.crosscutting\\benchmark\\benchmarking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|solutionrelative:infra.crosscutting\\benchmark\\benchmarking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|d:\\projetos\\projetofinalapi\\application\\controllers\\utilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|solutionrelative:application\\controllers\\utilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|d:\\projetos\\projetofinalapi\\infra.crosscutting\\scraper\\magazineluizascraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|solutionrelative:infra.crosscutting\\scraper\\magazineluizascraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36863B4B-6524-4BD1-BF17-30BE8FB92F62}|Service\\Service.csproj|d:\\projetos\\projetofinalapi\\service\\services\\utilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36863B4B-6524-4BD1-BF17-30BE8FB92F62}|Service\\Service.csproj|solutionrelative:service\\services\\utilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|d:\\projetos\\projetofinalapi\\infra.crosscutting\\scraper\\mercadolivrescraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|solutionrelative:infra.crosscutting\\scraper\\mercadolivrescraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|d:\\projetos\\projetofinalapi\\application\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|solutionrelative:application\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|d:\\projetos\\projetofinalapi\\application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|solutionrelative:application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|d:\\projetos\\projetofinalapi\\application\\models\\request\\produto\\createprodutorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|solutionrelative:application\\models\\request\\produto\\createprodutorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|d:\\projetos\\projetofinalapi\\infra.crosscutting\\emailsender\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|solutionrelative:infra.crosscutting\\emailsender\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|d:\\projetos\\projetofinalapi\\infra.crosscutting\\emailsender\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|solutionrelative:infra.crosscutting\\emailsender\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36863B4B-6524-4BD1-BF17-30BE8FB92F62}|Service\\Service.csproj|d:\\projetos\\projetofinalapi\\service\\services\\utilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36863B4B-6524-4BD1-BF17-30BE8FB92F62}|Service\\Service.csproj|solutionrelative:service\\services\\utilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47DA80C9-9D80-4135-8DF3-DD869C2BB255}|Domain\\Domain.csproj|d:\\projetos\\projetofinalapi\\domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{47DA80C9-9D80-4135-8DF3-DD869C2BB255}|Domain\\Domain.csproj|d:\\projetos\\projetofinalapi\\domain\\interfaces\\iutilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47DA80C9-9D80-4135-8DF3-DD869C2BB255}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iutilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|d:\\projetos\\projetofinalapi\\application\\controllers\\utilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|solutionrelative:application\\controllers\\utilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47DA80C9-9D80-4135-8DF3-DD869C2BB255}|Domain\\Domain.csproj|d:\\projetos\\projetofinalapi\\domain\\interfaces\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,20 +91,8 @@
       "RelativeMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|solutionrelative:application\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|d:\\projetos\\projetofinalapi\\infra.crosscutting\\scraper\\magazineluizascraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|solutionrelative:infra.crosscutting\\scraper\\magazineluizascraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|d:\\projetos\\projetofinalapi\\infra.crosscutting\\benchmark\\benchmarking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|solutionrelative:infra.crosscutting\\benchmark\\benchmarking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|d:\\projetos\\projetofinalapi\\infra.crosscutting\\scraper\\logbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|solutionrelative:infra.crosscutting\\scraper\\logbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|d:\\projetos\\projetofinalapi\\infra.crosscutting\\scraper\\mercadolivrescraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|solutionrelative:infra.crosscutting\\scraper\\mercadolivrescraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A101E22-A0B5-465B-B7B5-03B34FD3B97A}|Infra.CrossCutting\\Infra.CrossCutting.csproj|d:\\projetos\\projetofinalapi\\infra.crosscutting\\scraper\\requestlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F9D4ADFD-6CB4-4C9A-989B-EB354E5BF302}|Infra.Data\\Infra.Data.csproj|d:\\projetos\\projetofinalapi\\infra.data\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9D4ADFD-6CB4-4C9A-989B-EB354E5BF302}|Infra.Data\\Infra.Data.csproj|solutionrelative:infra.data\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|d:\\projetos\\projetofinalapi\\application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|solutionrelative:application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|d:\\projetos\\projetofinalapi\\application\\models\\response\\benchmarking\\produtoscraperresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -137,10 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|d:\\projetos\\projetofinalapi\\application\\models\\request\\produto\\updateprodutorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|solutionrelative:application\\models\\request\\produto\\updateprodutorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|d:\\projetos\\projetofinalapi\\application\\models\\request\\produto\\createprodutorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|solutionrelative:application\\models\\request\\produto\\createprodutorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9917471-C5CB-457D-A6EC-92580EE73737}|Application\\Application.csproj|d:\\projetos\\projetofinalapi\\application\\models\\request\\log\\updatelogrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -217,111 +221,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UtilService.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Service\\Services\\UtilService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\UtilService.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Service\\Services\\UtilService.cs",
-              "RelativeToolTip": "Service\\Services\\UtilService.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAkwDsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T00:53:53.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmailSender.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\EmailSender\\EmailSender.cs",
-              "RelativeDocumentMoniker": "Infra.CrossCutting\\EmailSender\\EmailSender.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\EmailSender\\EmailSender.cs",
-              "RelativeToolTip": "Infra.CrossCutting\\EmailSender\\EmailSender.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAvwCwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T03:35:40.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UtilController.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Controllers\\UtilController.cs",
-              "RelativeDocumentMoniker": "Application\\Controllers\\UtilController.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Application\\Controllers\\UtilController.cs",
-              "RelativeToolTip": "Application\\Controllers\\UtilController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAewCEAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T00:59:13.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Program.cs",
-              "RelativeDocumentMoniker": "Application\\Program.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Application\\Program.cs",
-              "RelativeToolTip": "Application\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAvwB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T01:49:50.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUtilService.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\IUtilService.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUtilService.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\IUtilService.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IUtilService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T03:58:13.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Email.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\EmailSender\\Email.cs",
-              "RelativeDocumentMoniker": "Infra.CrossCutting\\EmailSender\\Email.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\EmailSender\\Email.cs",
-              "RelativeToolTip": "Infra.CrossCutting\\EmailSender\\Email.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAewEQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T03:23:26.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmailSend.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\EmailSend.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\EmailSend.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\EmailSend.cs",
-              "RelativeToolTip": "Domain\\Entities\\EmailSend.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T03:43:23.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Service\\Services\\BaseService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\BaseService.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Service\\Services\\BaseService.cs",
-              "RelativeToolTip": "Service\\Services\\BaseService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T01:49:50.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "EmailRequest.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Request\\Utils\\EmailRequest.cs",
               "RelativeDocumentMoniker": "Application\\Models\\Request\\Utils\\EmailRequest.cs",
@@ -329,12 +229,11 @@
               "RelativeToolTip": "Application\\Models\\Request\\Utils\\EmailRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T03:38:35.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T03:38:35.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Produto.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\Produto.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Produto.cs",
@@ -342,181 +241,162 @@
               "RelativeToolTip": "Domain\\Entities\\Produto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T01:49:50.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T01:49:50.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IBaseService.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\IBaseService.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IBaseService.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\IBaseService.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IBaseService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAABFAAAA",
+              "DocumentIndex": 7,
+              "Title": "CreateProdutoRequest.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Request\\Produto\\CreateProdutoRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Request\\Produto\\CreateProdutoRequest.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Request\\Produto\\CreateProdutoRequest.cs",
+              "RelativeToolTip": "Application\\Models\\Request\\Produto\\CreateProdutoRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T01:49:50.058Z",
+              "WhenOpened": "2024-03-13T01:54:51.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IBaseRepository.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\IBaseRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IBaseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T01:49:50.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Log.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\Log.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Log.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\Log.cs",
-              "RelativeToolTip": "Domain\\Entities\\Log.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T01:49:50.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProdutoScraper.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\ProdutoScraper.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\ProdutoScraper.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\ProdutoScraper.cs",
-              "RelativeToolTip": "Domain\\Entities\\ProdutoScraper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T06:49:48.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CreateLogRequest.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Request\\Log\\CreateLogRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\Request\\Log\\CreateLogRequest.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Request\\Log\\CreateLogRequest.cs",
-              "RelativeToolTip": "Application\\Models\\Request\\Log\\CreateLogRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T01:49:50.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Application\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Application\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Application\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T01:49:50.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RequestLog.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\Scraper\\RequestLog.cs",
-              "RelativeDocumentMoniker": "Infra.CrossCutting\\Scraper\\RequestLog.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\Scraper\\RequestLog.cs",
-              "RelativeToolTip": "Infra.CrossCutting\\Scraper\\RequestLog.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T01:13:16.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 4,
               "Title": "MercadoLivreScraper.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\Scraper\\MercadoLivreScraper.cs",
               "RelativeDocumentMoniker": "Infra.CrossCutting\\Scraper\\MercadoLivreScraper.cs",
               "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\Scraper\\MercadoLivreScraper.cs",
               "RelativeToolTip": "Infra.CrossCutting\\Scraper\\MercadoLivreScraper.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAA5wCkAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T13:39:23.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
               "Title": "MagazineLuizaScraper.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\Scraper\\MagazineLuizaScraper.cs",
               "RelativeDocumentMoniker": "Infra.CrossCutting\\Scraper\\MagazineLuizaScraper.cs",
               "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\Scraper\\MagazineLuizaScraper.cs",
               "RelativeToolTip": "Infra.CrossCutting\\Scraper\\MagazineLuizaScraper.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwBQAAAAJAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAvwDIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T14:06:00.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": "Benchmarking.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\BenchMark\\Benchmarking.cs",
               "RelativeDocumentMoniker": "Infra.CrossCutting\\BenchMark\\Benchmarking.cs",
               "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\BenchMark\\Benchmarking.cs",
               "RelativeToolTip": "Infra.CrossCutting\\BenchMark\\Benchmarking.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAswC4AAAAgAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAvwA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T03:05:33.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "LogService.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Service\\Services\\LogService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\LogService.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Service\\Services\\LogService.cs",
-              "RelativeToolTip": "Service\\Services\\LogService.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAcwA8AAAAIAAAA",
+              "DocumentIndex": 3,
+              "Title": "UtilService.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Service\\Services\\UtilService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\UtilService.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Service\\Services\\UtilService.cs",
+              "RelativeToolTip": "Service\\Services\\UtilService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAIA8wCkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T05:27:48.876Z",
+              "WhenOpened": "2024-03-14T00:53:53.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LogBase.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\Scraper\\LogBase.cs",
-              "RelativeDocumentMoniker": "Infra.CrossCutting\\Scraper\\LogBase.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\Scraper\\LogBase.cs",
-              "RelativeToolTip": "Infra.CrossCutting\\Scraper\\LogBase.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAhAAAA",
+              "DocumentIndex": 1,
+              "Title": "UtilController.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Controllers\\UtilController.cs",
+              "RelativeDocumentMoniker": "Application\\Controllers\\UtilController.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Application\\Controllers\\UtilController.cs",
+              "RelativeToolTip": "Application\\Controllers\\UtilController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAIA4wDIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T13:29:28.566Z",
+              "WhenOpened": "2024-03-14T00:59:13.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "LogRepository.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.Data\\Repository\\LogRepository.cs",
-              "RelativeDocumentMoniker": "Infra.Data\\Repository\\LogRepository.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Infra.Data\\Repository\\LogRepository.cs",
-              "RelativeToolTip": "Infra.Data\\Repository\\LogRepository.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowA4AAABFAAAA",
+              "DocumentIndex": 17,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Service\\Services\\BaseService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\BaseService.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Service\\Services\\BaseService.cs",
+              "RelativeToolTip": "Service\\Services\\BaseService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T05:27:19.289Z",
+              "WhenOpened": "2024-03-13T01:49:50.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailSend.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\EmailSend.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\EmailSend.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\EmailSend.cs",
+              "RelativeToolTip": "Domain\\Entities\\EmailSend.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T03:43:23.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Application\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Application\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Application\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-15T13:36:28.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 8,
+              "Title": "Email.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\EmailSender\\Email.cs",
+              "RelativeDocumentMoniker": "Infra.CrossCutting\\EmailSender\\Email.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\EmailSender\\Email.cs",
+              "RelativeToolTip": "Infra.CrossCutting\\EmailSender\\Email.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAewEQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T03:23:26.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUtilService.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\IUtilService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUtilService.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\IUtilService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUtilService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T03:58:13.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Program.cs",
+              "RelativeDocumentMoniker": "Application\\Program.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Application\\Program.cs",
+              "RelativeToolTip": "Application\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAvwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T01:49:50.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\appsettings.json",
               "RelativeDocumentMoniker": "Application\\appsettings.json",
@@ -529,7 +409,139 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\EmailSender\\EmailSender.cs",
+              "RelativeDocumentMoniker": "Infra.CrossCutting\\EmailSender\\EmailSender.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\EmailSender\\EmailSender.cs",
+              "RelativeToolTip": "Infra.CrossCutting\\EmailSender\\EmailSender.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAvwCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T03:35:40.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IBaseService.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\IBaseService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IBaseService.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\IBaseService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IBaseService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T01:49:50.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T01:49:50.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Log.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\Log.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Log.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\Log.cs",
+              "RelativeToolTip": "Domain\\Entities\\Log.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T01:49:50.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProdutoScraper.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\ProdutoScraper.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ProdutoScraper.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\ProdutoScraper.cs",
+              "RelativeToolTip": "Domain\\Entities\\ProdutoScraper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T06:49:48.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateLogRequest.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Request\\Log\\CreateLogRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Request\\Log\\CreateLogRequest.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Request\\Log\\CreateLogRequest.cs",
+              "RelativeToolTip": "Application\\Models\\Request\\Log\\CreateLogRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T01:49:50.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Application\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Application\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Application\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T01:49:50.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RequestLog.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\Scraper\\RequestLog.cs",
+              "RelativeDocumentMoniker": "Infra.CrossCutting\\Scraper\\RequestLog.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\Scraper\\RequestLog.cs",
+              "RelativeToolTip": "Infra.CrossCutting\\Scraper\\RequestLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T01:13:16.942Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "LogService.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Service\\Services\\LogService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\LogService.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Service\\Services\\LogService.cs",
+              "RelativeToolTip": "Service\\Services\\LogService.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAcwA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T05:27:48.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LogBase.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\Scraper\\LogBase.cs",
+              "RelativeDocumentMoniker": "Infra.CrossCutting\\Scraper\\LogBase.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Infra.CrossCutting\\Scraper\\LogBase.cs",
+              "RelativeToolTip": "Infra.CrossCutting\\Scraper\\LogBase.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T13:29:28.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LogRepository.cs",
+              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.Data\\Repository\\LogRepository.cs",
+              "RelativeDocumentMoniker": "Infra.Data\\Repository\\LogRepository.cs",
+              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Infra.Data\\Repository\\LogRepository.cs",
+              "RelativeToolTip": "Infra.Data\\Repository\\LogRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowA4AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T05:27:19.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "ProdutoScraperResponse.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Response\\BenchMarking\\ProdutoScraperResponse.cs",
               "RelativeDocumentMoniker": "Application\\Models\\Response\\BenchMarking\\ProdutoScraperResponse.cs",
@@ -541,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.Data\\Repository\\BaseRepository.cs",
               "RelativeDocumentMoniker": "Infra.Data\\Repository\\BaseRepository.cs",
@@ -553,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "LogController.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Controllers\\LogController.cs",
               "RelativeDocumentMoniker": "Application\\Controllers\\LogController.cs",
@@ -565,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ILogService.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\ILogService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\ILogService.cs",
@@ -577,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "Application\\Controllers\\ProdutoController.cs",
@@ -589,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "LogResponse.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Response\\Log\\LogResponse.cs",
               "RelativeDocumentMoniker": "Application\\Models\\Response\\Log\\LogResponse.cs",
@@ -601,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "ILogRepository.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Interfaces\\ILogRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\ILogRepository.cs",
@@ -613,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "ProdutoResponse.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Response\\Produto\\ProdutoResponse.cs",
               "RelativeDocumentMoniker": "Application\\Models\\Response\\Produto\\ProdutoResponse.cs",
@@ -625,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "LogValidator.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Service\\Validators\\LogValidator.cs",
               "RelativeDocumentMoniker": "Service\\Validators\\LogValidator.cs",
@@ -637,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "UpdateProdutoRequest.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Request\\Produto\\UpdateProdutoRequest.cs",
               "RelativeDocumentMoniker": "Application\\Models\\Request\\Produto\\UpdateProdutoRequest.cs",
@@ -649,19 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CreateProdutoRequest.cs",
-              "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Request\\Produto\\CreateProdutoRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\Request\\Produto\\CreateProdutoRequest.cs",
-              "ToolTip": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Request\\Produto\\CreateProdutoRequest.cs",
-              "RelativeToolTip": "Application\\Models\\Request\\Produto\\CreateProdutoRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T01:54:51.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "UpdateLogRequest.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Request\\Log\\UpdateLogRequest.cs",
               "RelativeDocumentMoniker": "Application\\Models\\Request\\Log\\UpdateLogRequest.cs",
@@ -673,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "20240312190004_dbData.cs",
               "DocumentMoniker": "C:\\Users\\tarde.cetafaju\\source\\repos\\ProjetoFinalApi\\Infra.Data\\Migrations\\20240312190004_dbData.cs",
               "ToolTip": "C:\\Users\\tarde.cetafaju\\source\\repos\\ProjetoFinalApi\\Infra.Data\\Migrations\\20240312190004_dbData.cs",
@@ -682,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "ProdutoMap.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.Data\\Mapping\\ProdutoMap.cs",
               "RelativeDocumentMoniker": "Infra.Data\\Mapping\\ProdutoMap.cs",
@@ -694,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "UserValidator.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Service\\Validators\\UserValidator.cs",
               "RelativeDocumentMoniker": "Service\\Validators\\UserValidator.cs",
@@ -706,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "UpdateUserRequest.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Request\\User\\UpdateUserRequest.cs",
               "RelativeDocumentMoniker": "Application\\Models\\Request\\User\\UpdateUserRequest.cs",
@@ -718,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "CreateUserRequest.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Request\\User\\CreateUserRequest.cs",
               "RelativeDocumentMoniker": "Application\\Models\\Request\\User\\CreateUserRequest.cs",
@@ -730,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "UserResponse.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Models\\Response\\User\\UserResponse.cs",
               "RelativeDocumentMoniker": "Application\\Models\\Response\\User\\UserResponse.cs",
@@ -742,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "UserMap.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.Data\\Mapping\\UserMap.cs",
               "RelativeDocumentMoniker": "Infra.Data\\Mapping\\UserMap.cs",
@@ -754,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "SqlServerContext.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.Data\\Context\\SqlServerContext.cs",
               "RelativeDocumentMoniker": "Infra.Data\\Context\\SqlServerContext.cs",
@@ -766,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "LogMap.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.Data\\Mapping\\LogMap.cs",
               "RelativeDocumentMoniker": "Infra.Data\\Mapping\\LogMap.cs",
@@ -778,7 +778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "20240312190520_dbData.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.Data\\Migrations\\20240312190520_dbData.cs",
               "RelativeDocumentMoniker": "Infra.Data\\Migrations\\20240312190520_dbData.cs",
@@ -790,7 +790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "ProdutoValidator.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Service\\Validators\\ProdutoValidator.cs",
               "RelativeDocumentMoniker": "Service\\Validators\\ProdutoValidator.cs",
@@ -802,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Application.csproj",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
@@ -814,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "Infra.Data.csproj",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Infra.Data\\Infra.Data.csproj",
               "RelativeDocumentMoniker": "Infra.Data\\Infra.Data.csproj",
@@ -826,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
@@ -838,7 +838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\projetos\\ProjetoFinalApi\\Domain\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\BaseEntity.cs",
