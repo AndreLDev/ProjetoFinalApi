@@ -57,7 +57,16 @@ namespace Service.Services
 
             Produto produto = _produtoRepository.Select(entity.ProdutoId);
 
-            await EmailSender.EnviarEmailAsync(produto, entity);
+            MercadoLivreScraper mercadoLivreScraper = new MercadoLivreScraper(_logRepository, _mapper);
+            ProdutoScraper scraper = mercadoLivreScraper.ObterPreco<ProdutoScraper>(produto);
+
+            MagazineLuizaScraper magazineLuizaScraper = new MagazineLuizaScraper(_logRepository, _mapper);
+            scraper = magazineLuizaScraper.ObterPreco<ProdutoScraper>(produto, scraper);
+
+            Benchmarking bcmk = new Benchmarking(_logRepository, _mapper);
+            scraper = bcmk.CompararValor(scraper, produto);
+
+            await EmailSender.EnviarEmailAsync(produto, entity, scraper);
 
             TResponseModel responseModel = _mapper.Map<TResponseModel>(entity);
 

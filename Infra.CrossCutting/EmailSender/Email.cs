@@ -60,12 +60,20 @@ namespace Infra.CrossCutting.EmailSender
 
         private async Task SendEmailBySmtpAsync(MailMessage message)
         {
-            using (SmtpClient smtp = new SmtpClient(Provedor, 587))
+            try
             {
-                smtp.EnableSsl = true;
-                smtp.UseDefaultCredentials = false;
-                smtp.Credentials = new NetworkCredential(Username, Password);
-                await smtp.SendMailAsync(message);
+                using (SmtpClient smtp = new SmtpClient(Provedor, 587))
+                {
+                    smtp.EnableSsl = true;
+                    smtp.UseDefaultCredentials = false;
+                    smtp.Credentials = new NetworkCredential(Username, Password);
+                    await smtp.SendMailAsync(message);
+                }
+            }
+            catch (NotSupportedException ex)
+            {
+                Console.WriteLine("Ocorreu um erro ao enviar o email: " + ex.Message);
+                return; 
             }
         }
     }

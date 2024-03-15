@@ -9,10 +9,10 @@ namespace Infra.CrossCutting.EmailSender
 {
     public class EmailSender
     {
-        public static async Task EnviarEmailAsync(Produto produto, EmailSend emails)
+        public static async Task EnviarEmailAsync(Produto produto, EmailSend emails, ProdutoScraper scraper)
         {
-            string melhorCompraTexto = emails.Best == 0 ? "MagazineLuiza - <a href=\"" + emails.MagazineUrl + "\">Clique aqui</a>" :
-                           emails.Best == 1 ? "Mercado Livre -  <a href=\"" + emails.MercadoUrl + "\">Clique aqui</a>" :
+            string melhorCompraTexto = scraper.Best == 0 ? "MagazineLuiza - <a href=\"" + scraper.MagazineUrl + "\">Clique aqui</a>" :
+                           scraper.Best == 1 ? "Mercado Livre -  <a href=\"" + scraper.MercadoUrl + "\">Clique aqui</a>" :
                            "O Preço é igual nos dois.";
 
             var email = new Email("smtp-mail.outlook.com", "testrpasenai@outlook.com", "#testrpa0011");
@@ -29,11 +29,11 @@ namespace Infra.CrossCutting.EmailSender
                     <h1>Produto Pesquisado</h1>
                     <p>{produto.Desciption}</p>
                     <h2>Mercado Livre</h2>
-                    <p>Produto: {emails.MercadoTitle}</p>
-                    <p>Preço: R$ {emails.MercadoPrice}</p>
+                    <p>Produto: {scraper.MercadoTitle}</p>
+                    <p>Preço: R$ {scraper.MercadoPrice}</p>
                     <h2>MagazineLuiza</h2>
-                    <p>Produto: {emails.MagazineTitle}</p>
-                    <p>Preço: {emails.MagazinePrice}</p>
+                    <p>Produto: {scraper.MagazineTitle}</p>
+                    <p>Preço: {scraper.MagazinePrice}</p>
                     <h2>Melhor Compra</h2>
                     <p>{melhorCompraTexto}</p>
                     <p>Robô 3416</p>
